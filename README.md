@@ -27,4 +27,4 @@ Compile with gcc, run with .\
 gcc
 
 ## Problems
-Too hard
+For ProblemSet3.2, all characters of the cyphertext return back to the original character EXCEPT lowercase 'z', cannot figure out why.
