@@ -27,12 +27,12 @@ int main(int argc, char* argv[])
             if(islower(str[i]))
             {
                 str[i] = str [i] + key;
-                printf("%c", 'a' + (str[i] - 'a') % 26);  // Rotate beginning of lowercase alphabet
+                printf("%c", 'a' + (str[i] - 'a') % 26);  // Rotate to beginning of lowercase alphabet
             }
             else
             {
                 str[i] = str [i] + key;
-                printf("%c", 'A' + (str[i] - 'A') % 26); // Rotate beginning of lowercase alphabet
+                printf("%c", 'A' + (str[i] - 'A') % 26); // Rotate to beginning of lowercase alphabet
             }
                 
         }
@@ -45,12 +45,12 @@ int main(int argc, char* argv[])
             if (islower(str[i]))
             {
                 str[i] = str [i] - key;
-                printf("%c", 'z' + (str[i] - 'z') % 26);  // Rotate beginning of lowercase alphabet     
+                printf("%c", 'z' + (str[i] - 'z') % 26);  // Rotate to end of lowercase alphabet     
             }
             else
             {
                 str[i] = str [i] - key;
-                printf("%c", 'Z' + (str[i] - 'Z') % 26);  // Rotate beginning of lowercase alphabet
+                printf("%c", 'Z' + (str[i] - 'Z') % 26);  // Rotate to end of uppercase alphabet
             }
         }
         printf("\n");
